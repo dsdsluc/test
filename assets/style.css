@@ -1,7 +1,11 @@
 html{
     font-family: var(--font);
 }
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 .header{
     background-color: var(--color-one);
@@ -414,4 +418,107 @@ html{
     border-radius: 10px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+}
+
+
+.section-8{
+    background-color: var(--color-one);
+}
+
+.section-8 .inner-images{
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    aspect-ratio: 16/8;
+}
+.section-8 .inner-images img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    height: 100%;
+}
+
+.col-xl-20{
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+.section-9 {
+    background-color: var(--color-one);
+}
+
+.section-9 .container{
+    background-color: #fff;
+    border-radius: 20px;
+    max-width: 1040px;
+    margin-top: -40px;
+    position: relative;
+    z-index: 1;
+}
+.section-9 .container .row{
+    padding: 25px 30px;
+   
+    
+}
+.section-9 .container .row .inner-items p{
+    color: var(--color-text);
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.section-9 .container .row .inner-items h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.section-10 {
+    background-color: #31363B;
+    padding: 30px 0;
+    padding-bottom: 100px;
+}
+
+.section-10 .container .inner-wrap {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    aspect-ratio: 4/3;
+}
+.section-10 .container .inner-wrap .inner-content {
+    font-size: 28px;
+    color: var(--color-text);
+    position: relative;
+    margin-bottom: 30px;
+}
+.section-10 .container .inner-wrap .inner-content  .inner-icons{
+    font-size: 54px;
+    color: var(--color-text);
+    position: absolute;
+   right: 30px;
+   bottom: -40px;
+}
+.section-10 .inner-information .inner-images img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+.section-10 .inner-wrap .inner-information{
+    display: flex;
+}
+.section-10 .inner-wrap .inner-information .inner-name-job {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items:start ;
+    margin-left: 20px;
+    justify-content: center;
+}
+.section-10 .inner-wrap .inner-information .inner-name-job .inner-name{
+    font-size: 28px;
+    font-weight: 700;
+    color:var(--color-two)
+}
+.section-10 .inner-wrap .inner-information .inner-name-job .inner-job{
+    font-size: 18px;
+    color: var(--color-text);
 }
